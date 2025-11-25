@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary-100: #b8a3c7;
+        --color-primary-200: #bba5cd;
+        --color-primary-300: #744397;
+        --color-primary-400: #5c2891;
+        --color-primary-500: #4c1e76;
+
+        --font-satoshi: "Satoshi", sans-serif;
+        --font-satoshi-medium: "Satoshi-Medium", sans-serif;
+        --font-satoshi-bold: "Satoshi-Bold", sans-serif;
+        --font-satoshi-black: "Satoshi-Black", sans-serif;
+
+        --font-outfit: "Outfit", sans-serif;
+        --font-outfit-bold: "Outfit-Bold", sans-serif;
+        --font-outfit-light: "Outfit-Light", sans-serif;
+        --font-outfit-black: "Outfit-Black", sans-serif;
+
+        --font-poppins: "Poppins", sans-serif;
+        --font-poppins-light: "Poppins-Light", sans-serif;
+        --font-poppins-bold: "Poppins-Bold", sans-serif;
+        --font-poppins-medium: "Poppins-Medium", sans-serif;
+        --font-poppins-black: "Poppins-Black", sans-serif;
+      }
+    </style>
+    <title>Dev vision</title>
+  </head>
+  <body class="relative -z-20">
+    <!-- Pontos de Luz -->
+
+    <div class="w-full h-full -z-10 flex absolute">
+      <div
+        class="w-1/2 h-64 blur-[120px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-b-full top-0 absolute left-1/2 -translate-x-1/2"
+      ></div>
+
+      <div
+        class="w-128 h-84 blur-[120px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-r-full top-0 absolute left-0 top-[300px]"
+      ></div>
+
+      <div
+        class="w-180 h-84 blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[140vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[100vh] absolute right-0"
+      ></div>
+    </div>
+
+          <div
+        class="w-180 h-84 blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[240vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[200vh] absolute right-0"
+      ></div>
+
+                <div
+        class="w-180 h-84 blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[340vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[300vh] absolute right-0"
+      ></div>
+
+                <div
+        class="w-180 h-84 blur-[100px] max-lg:hidden opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[440vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 blur-[200px] max-lg:hidden  bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[400vh] absolute right-0"
+      ></div>
+
+                      <div
+        class="w-180 h-84 blur-[100px] max-lg:hidden max-lg:h-0 max-lg:w-0  opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[540vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 blur-[200px] max-lg:hidden max-lg:h-0 max-lg:w-0 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[500vh] absolute right-0"
+      ></div>
+
+                      <div
+        class="w-180 h-84  blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[640vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84  blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[600vh] absolute right-0"
+      ></div>
+
+                      <div
+        class="w-180 h-84 lg:hidden  blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[740vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 lg:hidden  blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[700vh] absolute right-0"
+      ></div>
+    </div>
+
+                          <div
+        class="w-180 h-84 lg:hidden blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[840vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 lg:hidden  blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[800vh] absolute right-0"
+      ></div>
+    </div>
+
+                              <div
+        class="w-180 h-84 lg:hidden  blur-[100px] opacity-40 bg-gradient-to-tr from-primary-300 to-primary-400 rounded-tr-full rounded-bl-full top-[880vh] absolute -left-50"
+      ></div>
+      <div
+        class="w-128 h-84 lg:hidden  blur-[200px] bg-gradient-to-tr from-primary-300 to-primary-400 rounded-rt-full rounded-bl-full top-[820vh] absolute right-0"
+      ></div>
+    </div>
+
+    <!-- Header -->
+
+    <header
+      class="w-full z-20 h-24 justify-between relative items-center text-primary-200"
+    >
+      <nav
+        class="flex flex-row w-full h-full px-16 max-lg:px-2 py-6 justify-between items-center"
+      >
+        <img
+          class="h-10"
+          src="./assets/images/logo-monocromatica.png"
+          alt="Logo Dev Vision"
+        />
+        <div
+          class="flex max-lg:hidden flex-row text-white gap-8 text-lg font-outfit"
+        >
+          <a href="#" class="hover:text-primary-100 duration-200 ease">Incio</a>
+          <a href="#" class="hover:text-primary-100 duration-200 ease"
+            >Sobre o curso</a
+          >
+          <a href="#" class="hover:text-primary-100 duration-200 ease"
+            >Professores</a
+          >
+          <a href="#" class="hover:text-primary-100 duration-200 ease"
+            >Trajetória</a
+          >
+        </div>
+
+        <button
+          class="px-4 gap-2 p-2 font-outfit-bold items-center flex shadow-[0_-2px_24px_4px_theme('colors.primary.300')] text-primary-500 bg-white rounded-full cursor-pointer"
+        >
+          CONHECER <img class="" src="./assets/icons/insta.svg" alt="" />
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <main
+      class="w-full px-[8%] max-lg:px-6 relative flex h-full max-lg:flex-col-reverse items-center justify-center pb-[64px] gap-10"
+    >
+      <!-- Texto -->
+      <div
+        class="w-1/2 max-lg:w-full flex flex-col items-start justify-center h-full max-lg:translate-y-0 -translate-y-16"
+      >
+
+        <div class="w-full flex max-lg:items-center text-center justify-center items-start flex-col gap-6">
+          <h1 class="text-6xl font-poppins-bold max-lg:text-3xl gradient-text">
+            Aqui começa sua visão pro futuro.
+          </h1>
+          <p class="text-lg max-lg:text-base font-satoshi text-white">
+            Construa hoje a base do futuro que você imagina, criando ideias,
+            caminhos e oportunidades que irão transformar a sua jornada.
+          </p>
+          <button
+            class="bg-primary-400 max-lg:text-sm shadow-[0_-2px_64px_theme('colors.primary.300')] text-xl p-2 px-6 rounded-full font-poppins-bold"
+          >
+            QUERO CONHECER MELHOR
+          </button>
+        </div>
+      </div>
+      <!-- Imagem -->
+
+      <div
+        class="relative w-3/5 max-lg:w-full max-lg:-translate-y-4 h-full -translate-y-32 z-10"
+      >
+        <img
+          src="./assets/images/FOTOS.png"
+          class="w-full h-full object-cover"
+        />
+
+        <!-- Blur na parte de baixo -->
+        <div
+          class="absolute max-lg:hidden bottom-0 left-0 w-2/3 left-1/2 -translate-x-[45%] h-1/12 backdrop-blur-lg blur-[0.5px] translate-y-"
+        ></div>
+      </div>
+    </main>
+
+
+        <!-- Seção sobre o curso -->
+
+    <section
+      class="w-full z-20 h-[90vh] px-[8%] relative max-lg:px-6 max-lg:h-[200vh] flex flex-col items-center justify-start"
+    >
+      <div class="flex flex-col items-center justify-center">
+        <h1
+          class="gradient-text text-4xl max-lg:text-3xl text-center font-poppins-bold mb-4"
+        >
+          Sobre o curso Desenvolvimento de Sistemas
+        </h1>
+        <p class="text-lg max-lg:text-base text-center font-satoshi text-white">
+          Se você gosta de criatividade, inovação e tecnologia, o curso de
+          <strong class="text-primary-400 max-lg:text-base font-satoshi-medium"
+            >Desenvolvimento de Sistemas</strong
+          >
+        </p>
+        <p class="text-lg text-center font-satoshi max-lg:text-base text-white">
+          é o lugar perfeito para transformar ideias em realidade.
+        </p>
+      </div>
+
+      <div
+        class="w-full h-full flex justify-center max-lg:flex-col max-lg:gap-2 items-center gap-10"
+      >
+        <!-- Card 1 -->
+        <div class="flex items-center justify-center py-10 w-84 h-full">
+          <div
+            class="h-full w-full flex p-4 rounded-3xl items-end justify-center"
+            style="
+              background-image: url(./assets/images/img-1.jpg);
+              background-size: cover;
+            "
+          >
+            <div class="w-full p-2 glass-bg font-poppins">
+              <h1 class="text-xl text-white font-poppins-bold">Progamação</h1>
+              <p class="text-sm text-white">Tecnologias do Futuro:</p>
+              <p class="text-sm text-white">
+                Aprenda o que as empresas realmente usam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="flex items-center justify-center py-10 w-84 h-full">
+          <div
+            class="h-full w-full flex p-4 rounded-3xl items-end justify-center"
+            style="
+              background-image: url(./assets/images/img-2.jpg);
+              background-size: cover;
+            "
+          >
+            <div class="w-full p-2 glass-bg font-poppins">
+              <h1 class="text-xl text-white font-poppins-bold">Suporte</h1>
+              <p class="text-sm text-white">
+                Aprenda suporte técnico de forma prática,
+              </p>
+              <p class="text-sm text-white">clara e do jeito certo.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="flex items-center justify-center py-10 w-84 h-full">
+          <div
+            class="h-full w-full flex p-4 rounded-3xl items-end justify-center"
+            style="
+              background-image: url(./assets/images/img-3.jpg);
+              background-size: cover;
+            "
+          >
+            <div class="w-full p-2 glass-bg font-poppins">
+              <h1 class="text-xl text-white font-poppins-bold">Design UI/UX</h1>
+              <p class="text-sm text-white">transforme ideias em interfaces</p>
+              <p class="text-sm text-white">modernas e funcionais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Seção sobre os professores -->
+    <section
+      class="w-full z-20 h-[70vh] relative px-[8%] mt-20 max-lg:px-6 max-lg:h-[160vh] flex flex-col items-center justify-start"
+    >
+      <div class="flex flex-col items-center justify-center">
+        <h1
+          class="gradient-text text-4xl max-lg:text-3xl text-center font-poppins-bold mb-4"
+        >
+          Conheça os nossos Professores Técnicos
+        </h1>
+        <p class="text-lg max-lg:text-base text-center font-satoshi text-white">
+          Profissionais experientes, apaixonados por tecnologia e preparados
+          para >
+        </p>
+        <p class="text-lg text-center font-satoshi max-lg:text-base text-white">
+          guiar você do zero ao avançado.
+        </p>
+      </div>
+
+      <div
+        class="w-full h-full flex flex-row justify-center max-lg:flex-col max-lg:justify-start max-lg: pt-20 max-lg:gap-6 items-center gap-10"
+      >
+        <!-- Card 1 -->
+        <div class="flex glass-bg items-start rounded-4xl flex-col justify-start p-4 w-84 h-64">
+          <div class="w-full flex flex-row items-center justify-start ">
+          <div class="w-16 h-16 rounded-full border border-white/10 mr-4" style="background-image: url(./assets/images/naisa.png);background-size: cover;background-position: -30% 30%;">           </div>
+
+          <div class="flex flex-col items-start justify-start">
+            <h1 class="text-xl text-white font-poppins-bold">Naisa Melo</h1>
+            <p class="text-sm text-white  font-poppins-light">Professora</p>
+          </div>
+            </div>
+
+          <p class="w-full mt-6 px-2 flex text-white text-base font-satoshi">Experiência com front-end, back-end e bancos de dados. Trabalhou em empresas reais.</p>
+
+          <div class="w-full items-center mt-auto gap-3 justify-start flex">
+            <a class="w-10 h-10 items-center justify-center flex border-white  rounded-full border p-2.5" href="#"><img class="w-full h-full" src="./assets/icons/insta-white.svg" alt=""></a>
+            <a class="w-10 h-10 items-center justify-center flex border-white  rounded-full border p-2.5" href="#"><img class="w-full h-full" src="./assets/icons/facebook-white.svg" alt=""></a>
+
+          </div>
+          </div>
+
+
+
+
+        <!-- Card 2 -->
+        <div class="flex glass-bg items-start rounded-4xl flex-col justify-start p-4 w-84 h-64">
+          <div class="w-full flex flex-row items-center justify-start ">
+          <div class="w-16 h-16 rounded-full border border-white/10 mr-4" style="background-image: url(./assets/images/vidal.jpg);background-size: cover;background-position: 10% 10%;">           </div>
+
+          <div class="flex flex-col items-start justify-start">
+            <h1 class="text-xl text-white font-poppins-bold">Naisa Melo</h1>
+            <p class="text-sm text-white  font-poppins-light">Professora</p>
+          </div>
+            </div>
+
+          <p class="w-full mt-6 px-2 flex text-white text-base font-satoshi">Experiência com front-end, back-end e bancos de dados. Trabalhou em empresas reais.</p>
+
+          <div class="w-full items-center mt-auto gap-3 justify-start flex">
+            <a class="w-10 h-10 items-center justify-center flex border-white  rounded-full border p-2.5" href="#"><img class="w-full h-full" src="./assets/icons/insta-white.svg" alt=""></a>
+            <a class="w-10 h-10 items-center justify-center flex border-white  rounded-full border p-2.5" href="#"><img class="w-full h-full" src="./assets/icons/facebook-white.svg" alt=""></a>
+
+          </div>
+          </div>
+        <!-- Card 3 -->
+        <div class="flex glass-bg items-start rounded-4xl flex-col justify-start p-4 w-84 h-64">
+          <div class="w-full flex flex-row items-center justify-start ">
+          <div class="w-16 h-16 rounded-full border border-white/10 mr-4" style="background-image: url(./assets/images/fabio.jpg);background-size: cover;">           </div>
+
+          <div class="flex flex-col items-start justify-start">
+            <h1 class="text-xl text-white font-poppins-bold">Naisa Melo</h1>
+            <p class="text-sm text-white  font-poppins-light">Professora</p>
+          </div>
+            </div>
+
+          <p class="w-full mt-6 px-2 flex text-white text-base font-satoshi">Experiência com front-end, back-end e bancos de dados. Trabalhou em empresas reais.</p>
+
+          <div class="w-full items-center mt-auto gap-3 justify-start flex">
+            <a class="w-10 h-10 items-center justify-center flex border-white  rounded-full border p-2.5" href="#"><img class="w-full h-full" src="./assets/icons/insta-white.svg" alt=""></a>
+            <a class="w-10 h-10 items-center justify-center flex border-white  rounded-full border p-2.5" href="#"><img class="w-full h-full" src="./assets/icons/facebook-white.svg" alt=""></a>
+
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="w-full z-20 flex relative flex-col mt-10 items-center justify-start px-4">
+            <div class="flex flex-col items-center justify-center mb-20">
+        <h1
+          class="gradient-text text-4xl max-lg:text-3xl text-center font-poppins-bold mb-4"
+        >
+          Conheça como foi nossa trajetória
+        </h1>
+        <p class="text-lg max-lg:text-base text-center font-satoshi text-white">
+Acompanhe nossas viagens técnicas, eventos marcantes e experiências que
+        </p>
+        <p class="text-lg text-center font-satoshi max-lg:text-base text-white">
+mostram nossa evolução dentro e fora da sala de aula.        </p>
+      </div>
+
+
+      <div class="w-full h-full items-start flex justify-center items-stretch">
+
+        <div class="w-96 flex h-full flex-col gap-50 ">
+
+          <!-- Card 1 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Viagem para UX Software</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">Viagem técnica para conhecer a UXSoftware, empresa renomada no mercado de programação e referência em inovação.</p>
+            <img src="./assets/images/viagem-ux.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+                    <!-- Card 3 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Simpósio de Tecnologia I, II e III</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">Nossa participação no Simpósio de Tecnologia proporcionou experiências práticas e momentos que impulsionam nossa evolução acadêmica.</p>
+            <img src="./assets/images/evento-simposio.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+                    <!-- Card 5 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Desfile Ecológico</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">O Desfile Ecológico proporcionou experiências marcantes e momentos que promovem aprendizado e consciência ambiental.</p>
+            <img src="./assets/images/desfile-ecologico.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+                    <!-- Card 7 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Fotos Externas na Praia</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">Nas fotos externas na praia, registramos momentos especiais que refletem nossa trajetória e experiências marcantes da jornada.</p>
+            <img src="./assets/images/imagem-grupo.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+          
+
+        </div>
+
+        <div class="w-0.5 flex bg-white/50 h-auto  min-h-full relative rounded mx-10"> <div class="w-3 h-3 rounded-full bg-white absolute -top-2 -translate-x-[50%] left-1/2"></div></div>
+
+        <div class="w-96 flex h-full flex-col gap-50 pt-50">
+
+          <!-- Card 1 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Viagem para faculdade Luciano Feijão</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">Nossa visita técnica à Faculdade Luciano Feijão trouxe experiências práticas e momentos que impulsionam nossa evolução.</p>
+            <img src="./assets/images/viagem-faculdade-lfl.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+                    <!-- Card 3 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">A I Amostra de Tecnologia e Inovação</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">A I Amostra de Tecnologia e Inovação proporcionou experiências práticas e momentos que fortalecem nosso aprendizado.</p>
+            <img src="./assets/images/1-amostra-de-tecnologia-e-inovação.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+                    <!-- Card 5 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Cerimônia de Entrega de Crachás</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">Na Cerimônia de Entrega dos Crachás, vivenciamos momentos especiais que marcam nosso início e fortalecem nossa evolução na jornada acadêmica.</p>
+            <img src="./assets/images/entrega-crachá.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+                    <!-- Card 7 -->
+          <div class="w-full flex flex-col justify-start items-start">
+            <h1 class="text-xl text-white font-satoshi-bold">Fotos em Estúdio com a Beca</h1>
+            <p class="text-base text-white max-lg:text-xs font-satoshi">Nas fotos em estúdio com a beca, registramos momentos especiais e celebramos nossas conquistas acadêmicas.</p>
+            <img src="./assets/images/foto-maxwell-e-thaemilly.jpg" class="w-full h-56 rounded-2xl mt-2 object-cover" alt="">
+          </div>
+
+          
+
+        </div>
+        </div>
+
+      </div>
+            <div class="flex flex-col items-center justify-center mb-10 mt-20">
+        <h1
+          class="gradient-text text-4xl max-lg:text-3xl text-center font-poppins-bold mb-2"
+        >
+Agora é com você, vem ser DS        </h1>
+        <p class="text-base max-lg:text-base text-center font-satoshi text-white">
+embarque nessa jornada e descubra experiências, aprendizados e desafios        </p>
+        <p class="text-base text-center font-satoshi max-lg:text-base text-white">
+que vão transformar seu futuro.</p>
+
+      <img src="./assets/images/foto da turma.jpg" class="w-1/2 max-lg:w-full mt-4  rounded-3xl" alt="">
+
+      </div>    
+
+    
+    
+    </section>
+
+    <footer class="w-full z-20 relative h-30 flex items-center justify-center flex-col footer-bg">
+      <img src="/assets/images/logo-monocromatica.png" class="h-14" alt="">
+      <p class="font-poppins text-white text-base">© 2025 Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>

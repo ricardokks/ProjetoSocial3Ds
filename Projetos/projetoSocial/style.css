@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #e0e7ff; /* Primary-200 */
+}
+
+
+
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('./assets/fonts/Satoshi-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('./assets/fonts/Satoshi-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/Outfit-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Outfit-Light';
+  src: url('./assets/fonts/Outfit-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  src: url('./assets/fonts/Outfit-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Outfit-Black';
+  src: url('./assets/fonts/Outfit-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url("./assets/fonts/Poppins-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-light";
+  src: url("./assets/fonts/Poppins-Light.ttf") format("truetype");
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ffffff, #A78BFA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-bg {
+  background: rgba(10, 10, 10, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-bg{
+  background: linear-gradient(150deg, rgba(30,30,30,0.4), rgba(147,51,234,0.3));
+}
